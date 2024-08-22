@@ -8,10 +8,6 @@ final restaurantProvider = Provider<List<Restaurant>>((ref) {
     {"id": 2, "name": "Pinocchio's Pizza", "cuisine": "Italian"},
     {"id": 3, "name": "Felipe's Taqueria", "cuisine": "Mexican"},
     {"id": 4, "name": "Tasty Burger", "cuisine": "American"},
-    {"id": 3, "name": "Felipe's Taqueria", "cuisine": "Mexican"},
-    {"id": 4, "name": "Tasty Burger", "cuisine": "American"},
-    {"id": 3, "name": "Felipe's Taqueria", "cuisine": "Mexican"},
-    {"id": 4, "name": "Tasty Burger", "cuisine": "American"}
   ];
 
   return jsonData.map((data) => Restaurant.fromJson(data)).toList();
